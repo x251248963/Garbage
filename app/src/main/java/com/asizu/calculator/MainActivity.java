@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
 //                //Toast.makeText(MainActivity.this,"hello world!",Toast.LENGTH_LONG).show();
 //                finish();
 //            }
-//        }); 
+//        });
 
     }
 
