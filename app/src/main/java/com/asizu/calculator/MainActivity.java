@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         //隐藏top bar
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.index);
 
 //        Uri uri = Uri.parse("http://www.baidu.com");
 //        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
