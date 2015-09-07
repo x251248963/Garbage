@@ -57,7 +57,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="#cccccc"
-            android:text="B了狗了"
+            android:text="A了狗了"
             android:gravity="left|center"
             android:paddingLeft="10dp"/>
     </LinearLayout>
