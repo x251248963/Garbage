@@ -5,8 +5,11 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Garbage" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Garbage" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Garbage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Garbage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/calculator" vcs="Git" />
   </component>
 </project>
