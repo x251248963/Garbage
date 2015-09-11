@@ -5,7 +5,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-
+        android:id="@+id/ex_input"
         android:background="@drawable/white"
         android:editable="false"
         android:gravity="bottom|right"/>

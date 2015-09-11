@@ -11,10 +11,12 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
+    EditText ex_input;
     Button btn_0;
     Button btn_1;
     Button btn_2;
@@ -40,6 +42,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.calculator);
 
+        ex_input = (EditText)findViewById(R.id.ex_input);
         btn_0 = (Button)findViewById(R.id.btn_0);
         btn_1 = (Button)findViewById(R.id.btn_1);
         btn_2 = (Button)findViewById(R.id.btn_2);
@@ -81,13 +84,44 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         //Toast.makeText(MainActivity.this,"123",Toast.LENGTH_LONG).show();
 
+        String str = ex_input.getText().toString();
         int id = view.getId();
         switch (id) {
+            case R.id.btn_0:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_1:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_2:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_3:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_4:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_5:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_6:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_7:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_8:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
+            case R.id.btn_9:
+                ex_input.setText(str + ((Button)view).getText());
+                break;
             case R.id.btn_division:
                 Toast.makeText(MainActivity.this,"btn_division",Toast.LENGTH_LONG).show();
                 break;
             case R.id.btn_del:
-                Toast.makeText(MainActivity.this,"btn_del",Toast.LENGTH_LONG).show();
+                ex_input.setText("0");
                 break;
         }
         Log.d(view.toString(),"123");
